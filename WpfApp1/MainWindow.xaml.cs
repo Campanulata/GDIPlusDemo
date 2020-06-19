@@ -45,5 +45,10 @@ namespace WpfApp1
             textImg.Text = @path;
             pic.ImgPath = @path;
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://github.com/Campanulata/GDIPlusDemo");
+        }
     }
 }

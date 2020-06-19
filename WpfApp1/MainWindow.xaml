@@ -27,6 +27,7 @@
         <TextBox HorizontalAlignment="Left" Height="30" Margin="568,10,0,0" TextWrapping="Wrap" Text="测试窗口" VerticalAlignment="Top" Width="100" />
         <Label Content="字体放大倍数" HorizontalAlignment="Left" Margin="10,255,0,0" VerticalAlignment="Top" Height="30" Width="100"/>
         <TextBox HorizontalAlignment="Left" Height="30" Margin="115,255,0,0" TextWrapping="Wrap" Text="{Binding Scale}" VerticalAlignment="Top" Width="100" />
+        <Button  Content="本项目的最新进展及常见问题可点击访问" HorizontalAlignment="Left" Margin="115,379,0,0" VerticalAlignment="Top" Height="30" Width="553" Click="Button_Click_2" BorderBrush="White" Background="White" FontWeight="Bold" FontSize="16"/>
 
     </Grid>
 </Window>
